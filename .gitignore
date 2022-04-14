@@ -1,1 +1,5 @@
 appsettings.json
+.idea
+bin
+obj
+.vscode
