@@ -5957,11 +5957,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind\\Northwind.csproj",
+      "projectUniqueName": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
       "projectName": "Northwind",
-      "projectPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind\\Northwind.csproj",
+      "projectPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
       "packagesPath": "C:\\Users\\rvanf\\.nuget\\packages\\",
-      "outputPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind\\obj\\",
+      "outputPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rvanf\\AppData\\Roaming\\NuGet\\NuGet.Config"

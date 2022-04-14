@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
