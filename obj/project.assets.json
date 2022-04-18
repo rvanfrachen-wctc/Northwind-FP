@@ -5952,24 +5952,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rvanf\\.nuget\\packages\\": {}
+    "C:\\Users\\rvanf.RYANS-PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
+      "projectUniqueName": "E:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP Copy\\Northwind-FP\\Northwind.csproj",
       "projectName": "Northwind",
-      "projectPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
-      "packagesPath": "C:\\Users\\rvanf\\.nuget\\packages\\",
-      "outputPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\obj\\",
+      "projectPath": "E:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP Copy\\Northwind-FP\\Northwind.csproj",
+      "packagesPath": "C:\\Users\\rvanf.RYANS-PC\\.nuget\\packages\\",
+      "outputPath": "E:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP Copy\\Northwind-FP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rvanf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rvanf.RYANS-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6021,7 +6023,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
