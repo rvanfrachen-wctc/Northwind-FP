@@ -129,5 +129,35 @@ namespace Northwind.Controllers
         {
             return View();
         }
+
+
+        /* RYANS */
+         [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> ForgotPassword(ForgotPasswordModel model)
+        {
+            if (ModelState.IsValid)
+            {
+            //Send Email
+            MailMessage Msg = new MailMessage();
+            Msg.From = new MailAddress("northwindfp.help@gmail.com","Northwind");// replace with valid value
+            Msg.Subject = "Reset Password";
+            Msg.To.Add(model.Email); //replace with correct values
+            Msg.Body = "Click this link to reset your password: ";
+            Msg.IsBodyHtml = true;
+            Msg.Priority = MailPriority.High;
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.Port = 587;
+            smtp.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");// replace with valid value
+            smtp.EnableSsl = true;
+            smtp.Timeout = 20000;
+
+            smtp.Send(Msg);
+            return RedirectToAction("Login");
+            }
+            
+            return View(model);
+        }
     }
 }

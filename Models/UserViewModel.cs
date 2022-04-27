@@ -16,4 +16,11 @@ namespace Northwind.Models
         [Required, UIHint("password")]
         public string Password { get; set; }
     }
+
+    public class ForgotPasswordModel
+    {
+        // public Customer Customer { get; set; }
+        [Required, UIHint("email")]
+        public string Email { get; set; }
+    }
 }
