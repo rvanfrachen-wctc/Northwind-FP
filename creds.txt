@@ -1,0 +1,14 @@
+{
+  "Data": {
+    "Northwind": {
+      "ConnectionString": "Server=bitsql.wctc.edu;Database=Northwind_34_AMG;User ID=agunn1;Password=000406250"      
+    },
+    "AppIdentity": {
+      "ConnectionString": "Server=bitsql.wctc.edu;Database=Identity_34_AMG;User ID=agunn1;Password=000406250"
+    }
+  },
+  "_comment": {
+    "##": "last 2 digits of CRN",
+    "XXX": "your initials"
+  }
+}

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj": {}
+    "C:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Northwind.csproj": {}
   },
   "projects": {
-    "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj": {
+    "C:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Northwind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
+        "projectUniqueName": "C:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Northwind.csproj",
         "projectName": "Northwind",
-        "projectPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
-        "packagesPath": "C:\\Users\\rvanf\\.nuget\\packages\\",
-        "outputPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\obj\\",
+        "projectPath": "C:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Northwind.csproj",
+        "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andy\\RiderProjects\\Northwind-FP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rvanf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
