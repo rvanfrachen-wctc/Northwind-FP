@@ -15654,6 +15654,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+      "TargetPath": "Views\\Account\\ResetPasswordConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Views\\Account\\ResetPassword.cshtml",
+      "TargetPath": "Views\\Account\\ResetPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Views\\Customer\\Account.cshtml",
       "TargetPath": "Views\\Customer\\Account.cshtml",
       "FileKind": "mvc"
