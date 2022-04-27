@@ -80,7 +80,6 @@ D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind F
 D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/ref/Northwind.dll
 D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.pdb
 D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.genruntimeconfig.cache
-/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/appsettings.Development.json
 /Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.deps.json
 /Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.runtimeconfig.json
 /Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.runtimeconfig.dev.json
@@ -160,3 +159,4 @@ D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind F
 /Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/ref/Northwind.dll
 /Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.pdb
 /Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.genruntimeconfig.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/appsettings.json
