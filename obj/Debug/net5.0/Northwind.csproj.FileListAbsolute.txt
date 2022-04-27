@@ -79,3 +79,5 @@ C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Northwind.dll
 C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\ref\Northwind.dll
 C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Northwind.pdb
 C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Northwind.genruntimeconfig.cache
+C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Razor\Views\Account\ResetPasswordConfirmation.cshtml.g.cs

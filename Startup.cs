@@ -36,7 +36,7 @@ namespace Northwind
             services.AddControllersWithViews();
 
             //First add the AddDefaultTokenProviders extension method to enable the token generation in the project. Add this inside the ConfigureServices method of Startup.cs class as shown below:
-            services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders();
+           // services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders();
             //set the time of token validity by adding the below code to the ConfigureServices 
             services.Configure<DataProtectionTokenProviderOptions>(opts => opts.TokenLifespan = TimeSpan.FromHours(10));
         }

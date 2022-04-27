@@ -39,6 +39,7 @@ namespace Identity.Email
             catch (Exception ex)
             {
                 // log exception
+                Console.WriteLine(ex);
             }
             return false;
         }
