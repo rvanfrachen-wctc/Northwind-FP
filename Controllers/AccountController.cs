@@ -101,12 +101,16 @@ namespace Northwind.Controllers
  
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> ResetPassword(ResetPassword resetPassword)
+        public async Task<IActionResult> ResetPassword(LoginModel details, ResetPassword resetPassword)
         {
             if (!ModelState.IsValid)
                 return View(resetPassword);
  
-            var user = await _userManager.FindByEmailAsync(resetPassword.Email);
+            
+            AppUser user = await _userManager.FindByEmailAsync(details.Email);
+            // AppUser user = await _userManager.FindByEmailAsync(details.Email);
+
+            // var user = _userManager.FindByEmailAsync(resetPassword.Email);
             if (user == null)
                 RedirectToAction("ResetPasswordConfirmation");
  
