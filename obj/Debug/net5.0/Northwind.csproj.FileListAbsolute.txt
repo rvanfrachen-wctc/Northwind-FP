@@ -1,82 +1,162 @@
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\appsettings.Development.json
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\appsettings.json
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Northwind.exe
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Northwind.deps.json
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Northwind.runtimeconfig.json
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Northwind.runtimeconfig.dev.json
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Northwind.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\ref\Northwind.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Northwind.pdb
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Northwind.Views.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Northwind.Views.pdb
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Humanizer.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\System.Runtime.Caching.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.csproj.AssemblyReference.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.GeneratedMSBuildEditorConfig.editorconfig
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.AssemblyInfoInputs.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.AssemblyInfo.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.csproj.CoreCompileInputs.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.MvcApplicationPartsAssemblyInfo.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.RazorAssemblyInfo.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.RazorAssemblyInfo.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\staticwebassets\Northwind.StaticWebAssets.Manifest.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\staticwebassets\Northwind.StaticWebAssets.xml
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\scopedcss\bundle\Northwind.styles.css
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.TagHelpers.input.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.TagHelpers.output.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.RazorCoreGenerate.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Customer\Account.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Customer\Register.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Product\Category.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Product\CategoryDetail.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Product\Discount.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.RazorTargetAssemblyInfo.cache
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.RazorTargetAssemblyInfo.cs
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.Views.pdb
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.csproj.CopyComplete
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\ref\Northwind.dll
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.pdb
-D:\1) WCTC - College\1) 2022-2023\Semester 1\2) .Net Web Development\Northwind FP\obj\Debug\net5.0\Northwind.genruntimeconfig.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/appsettings.Development.json
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/appsettings.json
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Northwind.exe
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Northwind.deps.json
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Northwind.runtimeconfig.json
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Northwind.runtimeconfig.dev.json
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Northwind.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/ref/Northwind.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Northwind.pdb
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Northwind.Views.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Northwind.Views.pdb
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Humanizer.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/Newtonsoft.Json.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/System.Runtime.Caching.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.csproj.AssemblyReference.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.GeneratedMSBuildEditorConfig.editorconfig
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.AssemblyInfoInputs.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.AssemblyInfo.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.csproj.CoreCompileInputs.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.MvcApplicationPartsAssemblyInfo.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.RazorAssemblyInfo.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.RazorAssemblyInfo.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/staticwebassets/Northwind.StaticWebAssets.Manifest.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/staticwebassets/Northwind.StaticWebAssets.xml
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/scopedcss/bundle/Northwind.styles.css
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.TagHelpers.input.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.TagHelpers.output.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.RazorCoreGenerate.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Account/AccessDenied.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Customer/Account.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Customer/Register.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Product/Category.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Product/CategoryDetail.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Product/Discount.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Product/Index.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.RazorTargetAssemblyInfo.cache
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.RazorTargetAssemblyInfo.cs
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.Views.pdb
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.csproj.CopyComplete
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/ref/Northwind.dll
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.pdb
+D:/1) WCTC - College/1) 2022-2023/Semester 1/2) .Net Web Development/Northwind FP/obj/Debug/net5.0/Northwind.genruntimeconfig.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/appsettings.Development.json
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.deps.json
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.runtimeconfig.json
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.runtimeconfig.dev.json
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/ref/Northwind.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.pdb
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.Views.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Northwind.Views.pdb
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Humanizer.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/System.Runtime.Caching.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.csproj.AssemblyReference.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.AssemblyInfoInputs.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.AssemblyInfo.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.csproj.CoreCompileInputs.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.MvcApplicationPartsAssemblyInfo.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.RazorAssemblyInfo.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.RazorAssemblyInfo.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/staticwebassets/Northwind.StaticWebAssets.Manifest.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/staticwebassets/Northwind.StaticWebAssets.xml
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/scopedcss/bundle/Northwind.styles.css
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.TagHelpers.input.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.TagHelpers.output.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.RazorCoreGenerate.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Index.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Account/AccessDenied.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Customer/Account.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Customer/Register.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Product/Category.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Product/Discount.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Product/Index.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.RazorTargetAssemblyInfo.cache
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.RazorTargetAssemblyInfo.cs
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.Views.pdb
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.csproj.CopyComplete
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/ref/Northwind.dll
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.pdb
+/Users/andrew/Documents/GitHub/Northwind-FP/obj/Debug/net5.0/Northwind.genruntimeconfig.cache

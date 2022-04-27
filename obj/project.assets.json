@@ -5952,19 +5952,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rvanf\\.nuget\\packages\\": {}
+    "/Users/andrew/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
+      "projectUniqueName": "/Users/andrew/Documents/GitHub/Northwind-FP/Northwind.csproj",
       "projectName": "Northwind",
-      "projectPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
-      "packagesPath": "C:\\Users\\rvanf\\.nuget\\packages\\",
-      "outputPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\obj\\",
+      "projectPath": "/Users/andrew/Documents/GitHub/Northwind-FP/Northwind.csproj",
+      "packagesPath": "/Users/andrew/.nuget/packages/",
+      "outputPath": "/Users/andrew/Documents/GitHub/Northwind-FP/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rvanf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/andrew/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6021,7 +6021,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
       }
     }
   }
