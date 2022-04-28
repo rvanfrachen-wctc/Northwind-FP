@@ -161,3 +161,4 @@ C:\Users\mikej\OneDrive\Documents\GitHub\Northwind-FP\obj\Debug\net5.0\ref\North
 C:\Users\mikej\OneDrive\Documents\GitHub\Northwind-FP\obj\Debug\net5.0\Northwind.pdb
 C:\Users\mikej\OneDrive\Documents\GitHub\Northwind-FP\obj\Debug\net5.0\Northwind.genruntimeconfig.cache
 C:\Users\mikej\OneDrive\Documents\GitHub\Northwind-FP\obj\Debug\net5.0\Razor\Views\Account\EmailLink.cshtml.g.cs
+C:\Users\mikej\OneDrive\Documents\GitHub\Northwind-FP\obj\Debug\net5.0\Razor\Views\Account\NewPassword.cshtml.g.cs

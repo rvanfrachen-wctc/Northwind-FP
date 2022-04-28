@@ -15654,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Account\\NewPassword.cshtml",
+      "TargetPath": "Views\\Account\\NewPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

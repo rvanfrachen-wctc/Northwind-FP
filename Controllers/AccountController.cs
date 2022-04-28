@@ -62,7 +62,7 @@ namespace Northwind.Controllers
                  AppUser user = await _userManager.FindByEmailAsync(details.Email);
                 if (user == null)
                 {
-                    ModelState.AddModelError(nameof(EmailLinkModel.Email), "Invalid user or password");
+                    ModelState.AddModelError(nameof(EmailLinkModel.Email), "Invalid Email");
                 }
                 
             }

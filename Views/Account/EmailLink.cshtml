@@ -4,6 +4,7 @@
 <h3 class="mt-3">Request Link</h3>
 <p>A link to our password reset page will be sent via the email entered bellow. Please note this link will only 
     last XXX time or once used.</p>
+<div asp-validation-summary="All" class="text-danger"></div>
 <form asp-action="EmailLink" method="post">
     <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
     <div class="form-group">
