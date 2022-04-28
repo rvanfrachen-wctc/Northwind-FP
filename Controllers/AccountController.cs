@@ -85,16 +85,17 @@ namespace Northwind.Controllers
             if (!ModelState.IsValid)
                 return View(email);
  
-            var user = await _userManager.FindByEmailAsync(email);
+            var user = await _userManager.FindByEmailAsync("andrewgunn31@gmail.com");
             if (user == null)
                 return RedirectToAction(nameof(ForgotPasswordConfirmation));
 
             //var token = await _userManager.GeneratePasswordResetTokenAsync(user);
             var a = _userManager.GeneratePasswordResetTokenAsync(user);
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
            // System.Diagnostics.Debug.WriteLine(a);
             System.Console.WriteLine(a);
     
-            var token = "asdf";
+            //var token = "asdf";
             var link = Url.Action("ResetPassword", "Account", new { token, email = user.Email }, Request.Scheme);
  
             EmailHelper emailHelper = new EmailHelper();
