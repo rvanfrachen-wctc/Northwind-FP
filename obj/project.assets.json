@@ -5952,19 +5952,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rvanf\\.nuget\\packages\\": {}
+    "C:\\Users\\mikej\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
+      "projectUniqueName": "C:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Northwind.csproj",
       "projectName": "Northwind",
-      "projectPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
-      "packagesPath": "C:\\Users\\rvanf\\.nuget\\packages\\",
-      "outputPath": "D:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\obj\\",
+      "projectPath": "C:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Northwind.csproj",
+      "packagesPath": "C:\\Users\\mikej\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rvanf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mikej\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

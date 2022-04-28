@@ -50,5 +50,23 @@ namespace Northwind.Controllers
         }
 
         public ViewResult AccessDenied() => View();
+        public IActionResult EmailLink(string returnUrl){
+            ViewBag.returnUrl = returnUrl;
+            return View();
+        }
+        [HttpPost, ValidateAntiForgeryToken]
+        public async Task<IActionResult> EmailLink(EmailLinkModel details, string returnUrl)
+        {
+            if (ModelState.IsValid)
+            {
+                 AppUser user = await _userManager.FindByEmailAsync(details.Email);
+                if (user == null)
+                {
+                    ModelState.AddModelError(nameof(EmailLinkModel.Email), "Invalid user or password");
+                }
+                
+            }
+        return View(details);
+        }
     }
 }

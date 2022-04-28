@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Northwind.csproj",
+  "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Northwind.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,57 +15619,62 @@
   "RootNamespace": "Northwind",
   "Documents": [
     {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Account\\AccessDenied.cshtml",
-      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Product\\Index.cshtml",
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Product\\Index.cshtml",
       "TargetPath": "Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Account\\Login.cshtml",
-      "TargetPath": "Views\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Customer\\Account.cshtml",
-      "TargetPath": "Views\\Customer\\Account.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Product\\Discount.cshtml",
-      "TargetPath": "Views\\Product\\Discount.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Customer\\Register.cshtml",
-      "TargetPath": "Views\\Customer\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Product\\Category.cshtml",
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Product\\Category.cshtml",
       "TargetPath": "Views\\Product\\Category.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\1) WCTC - College\\1) 2022-2023\\Semester 1\\2) .Net Web Development\\Northwind FP\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Customer\\Register.cshtml",
+      "TargetPath": "Views\\Customer\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Account\\EmailLink.cshtml",
+      "TargetPath": "Views\\Account\\EmailLink.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Product\\Discount.cshtml",
+      "TargetPath": "Views\\Product\\Discount.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Customer\\Account.cshtml",
+      "TargetPath": "Views\\Customer\\Account.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Account\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mikej\\OneDrive\\Documents\\GitHub\\Northwind-FP\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }

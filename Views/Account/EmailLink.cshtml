@@ -1,0 +1,14 @@
+@using Northwind.Models
+@model EmailLinkModel
+
+<h3 class="mt-3">Request Link</h3>
+<p>A link to our password reset page will be sent via the email entered bellow. Please note this link will only 
+    last XXX time or once used.</p>
+<form asp-action="EmailLink" method="post">
+    <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-outline-primary">Send Email</button>
+</form>

@@ -16,4 +16,9 @@ namespace Northwind.Models
         [Required, UIHint("password")]
         public string Password { get; set; }
     }
+    public class EmailLinkModel{
+        [Required, UIHint("email")]
+        public string Email { get; set; }
+
+    }
 }
