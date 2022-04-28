@@ -69,19 +69,19 @@ namespace Northwind.Controllers
         {
 
 
-            // MailMessage Msg = new MailMessage();
-            // Msg.From = new MailAddress("northwindfp.help@gmail.com","Northwind");// replace with valid value
-            // Msg.Subject = "Reset Password";
-            // Msg.To.Add("andrewmgunn31@gmail.com"); //replace with correct values
-            // //Msg.Body = "Click this link to reset your password: ";
-            // Msg.IsBodyHtml = true;
-            // Msg.Priority = MailPriority.High;
-            // SmtpClient smtp = new SmtpClient();
-            // smtp.Host = "smtp.gmail.com";
-            // smtp.Port = 587;
-            // smtp.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");// replace with valid value
-            // smtp.EnableSsl = true;
-            // smtp.Timeout = 20000;
+            MailMessage Msg = new MailMessage();
+            Msg.From = new MailAddress("northwindfp.help@gmail.com","Northwind");// replace with valid value
+            Msg.Subject = "Reset Password";
+            Msg.To.Add("andrewmgunn31@gmail.com"); //replace with correct values
+            //Msg.Body = "Click this link to reset your password: ";
+            Msg.IsBodyHtml = true;
+            Msg.Priority = MailPriority.High;
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = "smtp.gmail.com";
+            smtp.Port = 587;
+            smtp.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");// replace with valid value
+            smtp.EnableSsl = true;
+            smtp.Timeout = 20000;
 
 
             if (!ModelState.IsValid)
@@ -95,7 +95,7 @@ namespace Northwind.Controllers
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
          
             var link = Url.Action("ResetPassword", "Account", new { token, email = user.Email }, Request.Scheme);
-            //  Msg.Body = "Click this link to reset your password: " + link;
+             Msg.Body = "Click this link to reset your password: " + link;
 
             EmailHelper emailHelper = new EmailHelper();
             bool emailResponse = emailHelper.SendEmailPasswordReset(user.Email, link);
@@ -107,7 +107,7 @@ namespace Northwind.Controllers
                 // log email failed 
             }
 
-            // smtp.Send(Msg);
+            //smtp.Send(Msg);
             //return RedirectToAction("Login");
             return View("ForgotPasswordConfirmation");
         }
