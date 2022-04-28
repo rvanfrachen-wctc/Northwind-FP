@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.Mail;
 using System.Threading.Tasks;
  
-namespace Identity.Email
+namespace Northwind.Email
 {
     public class EmailHelper
     {
@@ -25,7 +25,6 @@ namespace Identity.Email
             mailMessage.Subject = "Password Reset";
             mailMessage.IsBodyHtml = true;
             mailMessage.Body = link;
-            //mailMessage.Body = "wtf man";
  
             SmtpClient client = new SmtpClient();
             client.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");

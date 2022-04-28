@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Northwind.Models;
 using System.ComponentModel.DataAnnotations;
-using Identity.Email;
+//using Identity.Email;
+using Northwind.Email;
 using System.Net.Mail;
 using System.IO;
 
@@ -13,12 +14,12 @@ namespace Northwind.Controllers
 {
     public class AccountController : Controller
     {
-        private UserManager<AppUser> _userManager;
+        private UserManager<AppUser> userManager;
         private SignInManager<AppUser> _signInManager;
 
         public AccountController(UserManager<AppUser> userMgr, SignInManager<AppUser> signInMgr)
         {
-            _userManager = userMgr;
+            userManager = userMgr;
             _signInManager = signInMgr;
         }
         public IActionResult Login(string returnUrl)
@@ -32,7 +33,7 @@ namespace Northwind.Controllers
         {
             if (ModelState.IsValid)
             {
-                AppUser user = await _userManager.FindByEmailAsync(details.Email);
+                AppUser user = await userManager.FindByEmailAsync(details.Email);
                 if (user != null)
                 {
                     await _signInManager.SignOutAsync();
@@ -69,33 +70,33 @@ namespace Northwind.Controllers
         {
 
 
-            MailMessage Msg = new MailMessage();
-            Msg.From = new MailAddress("northwindfp.help@gmail.com","Northwind");// replace with valid value
-            Msg.Subject = "Reset Password";
-            Msg.To.Add("andrewmgunn31@gmail.com"); //replace with correct values
-            //Msg.Body = "Click this link to reset your password: ";
-            Msg.IsBodyHtml = true;
-            Msg.Priority = MailPriority.High;
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = "smtp.gmail.com";
-            smtp.Port = 587;
-            smtp.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");// replace with valid value
-            smtp.EnableSsl = true;
-            smtp.Timeout = 20000;
+            // MailMessage Msg = new MailMessage();
+            // Msg.From = new MailAddress("northwindfp.help@gmail.com","Northwind");// replace with valid value
+            // Msg.Subject = "Reset Password";
+            // Msg.To.Add("andrewmgunn31@gmail.com"); //replace with correct values
+            // //Msg.Body = "Click this link to reset your password: ";
+            // Msg.IsBodyHtml = true;
+            // Msg.Priority = MailPriority.High;
+            // SmtpClient smtp = new SmtpClient();
+            // smtp.Host = "smtp.gmail.com";
+            // smtp.Port = 587;
+            // smtp.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");// replace with valid value
+            // smtp.EnableSsl = true;
+            // smtp.Timeout = 20000;
 
 
             if (!ModelState.IsValid)
                 return View(email);
  
-            var user = await _userManager.FindByEmailAsync(email);
+            var user = await userManager.FindByEmailAsync(email);
             if (user == null)
                 return RedirectToAction(nameof(ForgotPasswordConfirmation));
 
         
-            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            var token = await userManager.GenerateEmailConfirmationTokenAsync(user);
          
             var link = Url.Action("ResetPassword", "Account", new { token, email = user.Email }, Request.Scheme);
-             Msg.Body = "Click this link to reset your password: " + link;
+            // Msg.Body = "Click this link to reset your password: " + link;
 
             EmailHelper emailHelper = new EmailHelper();
             bool emailResponse = emailHelper.SendEmailPasswordReset(user.Email, link);
@@ -132,14 +133,15 @@ namespace Northwind.Controllers
             if (!ModelState.IsValid)
                 return View(resetPassword);
 
-            AppUser user = await _userManager.FindByEmailAsync(resetPassword.Email);
+            //AppUser user = await _userManager.FindByEmailAsync(resetPassword.Email);
+            var user = await userManager.FindByEmailAsync(resetPassword.Email);
             // AppUser user = await _userManager.FindByEmailAsync(details.Email);
 
             // var user = _userManager.FindByEmailAsync(resetPassword.Email);
             if (user == null)
                 RedirectToAction("ResetPasswordConfirmation");
  
-            var resetPassResult = await _userManager.ResetPasswordAsync(user, resetPassword.Token, resetPassword.Password);
+            var resetPassResult = await userManager.ResetPasswordAsync(user, resetPassword.Token, resetPassword.Password);
             if (!resetPassResult.Succeeded)
             {
                 foreach (var error in resetPassResult.Errors)
@@ -149,7 +151,7 @@ namespace Northwind.Controllers
  
             return RedirectToAction("ResetPasswordConfirmation");
         }
- 
+        [AllowAnonymous]
         public IActionResult ResetPasswordConfirmation()
         {
             return View();
