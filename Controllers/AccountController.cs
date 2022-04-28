@@ -7,7 +7,9 @@ using System.ComponentModel.DataAnnotations;
 using Identity.Email;
 using System.Net.Mail;
 using System.IO;
+
 namespace Northwind.Controllers
+
 {
     public class AccountController : Controller
     {
@@ -70,8 +72,8 @@ namespace Northwind.Controllers
             MailMessage Msg = new MailMessage();
             Msg.From = new MailAddress("northwindfp.help@gmail.com","Northwind");// replace with valid value
             Msg.Subject = "Reset Password";
-            Msg.To.Add(email); //replace with correct values
-            Msg.Body = "Click this link to reset your password: ";
+            Msg.To.Add("andrewmgunn31@gmail.com"); //replace with correct values
+            //Msg.Body = "Click this link to reset your password: ";
             Msg.IsBodyHtml = true;
             Msg.Priority = MailPriority.High;
             SmtpClient smtp = new SmtpClient();
@@ -85,19 +87,16 @@ namespace Northwind.Controllers
             if (!ModelState.IsValid)
                 return View(email);
  
-            var user = await _userManager.FindByEmailAsync("andrewgunn31@gmail.com");
+            var user = await _userManager.FindByEmailAsync(email);
             if (user == null)
                 return RedirectToAction(nameof(ForgotPasswordConfirmation));
 
-            //var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-            var a = _userManager.GeneratePasswordResetTokenAsync(user);
+        
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-           // System.Diagnostics.Debug.WriteLine(a);
-            System.Console.WriteLine(a);
-    
-            //var token = "asdf";
+         
             var link = Url.Action("ResetPassword", "Account", new { token, email = user.Email }, Request.Scheme);
- 
+             Msg.Body = "Click this link to reset your password: " + link;
+
             EmailHelper emailHelper = new EmailHelper();
             bool emailResponse = emailHelper.SendEmailPasswordReset(user.Email, link);
  
@@ -110,7 +109,7 @@ namespace Northwind.Controllers
 
             smtp.Send(Msg);
             //return RedirectToAction("Login");
-            return View(email);
+            return View("ForgotPasswordConfirmation");
         }
  
         [AllowAnonymous]
@@ -119,12 +118,12 @@ namespace Northwind.Controllers
             return View();
         }
 
-         [AllowAnonymous]
-        public IActionResult ResetPassword(string token, string email)
-        {
-            var model = new ResetPassword { Token = token, Email = email };
-            return View(model);
-        }
+        //  [AllowAnonymous]
+        // public IActionResult ResetPassword(string token, string email)
+        // {
+        //     var model = new ResetPassword { Token = token, Email = email };
+        //     return View(model);
+        // }
  
         [HttpPost]
         [AllowAnonymous]
@@ -158,33 +157,33 @@ namespace Northwind.Controllers
         }
 
 
-        /* RYANS */
-         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> ForgotPassword222(ForgotPasswordModel model)
-        {
-            if (ModelState.IsValid)
-            {
-            //Send Email
-            MailMessage Msg = new MailMessage();
-            Msg.From = new MailAddress("northwindfp.help@gmail.com","Northwind");// replace with valid value
-            Msg.Subject = "Reset Password";
-            Msg.To.Add(model.Email); //replace with correct values
-            Msg.Body = "Click this link to reset your password: ";
-            Msg.IsBodyHtml = true;
-            Msg.Priority = MailPriority.High;
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = "smtp.gmail.com";
-            smtp.Port = 587;
-            smtp.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");// replace with valid value
-            smtp.EnableSsl = true;
-            smtp.Timeout = 20000;
+        // /* RYANS */
+        //  [HttpPost]
+        // [ValidateAntiForgeryToken]
+        // public async Task<ActionResult> ForgotPassword222(ForgotPasswordModel model)
+        // {
+        //     if (ModelState.IsValid)
+        //     {
+        //     //Send Email
+        //     MailMessage Msg = new MailMessage();
+        //     Msg.From = new MailAddress("northwindfp.help@gmail.com","Northwind");// replace with valid value
+        //     Msg.Subject = "Reset Password";
+        //     Msg.To.Add(model.Email); //replace with correct values
+        //     Msg.Body = "Click this link to reset your password: ";
+        //     Msg.IsBodyHtml = true;
+        //     Msg.Priority = MailPriority.High;
+        //     SmtpClient smtp = new SmtpClient();
+        //     smtp.Host = "smtp.gmail.com";
+        //     smtp.Port = 587;
+        //     smtp.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");// replace with valid value
+        //     smtp.EnableSsl = true;
+        //     smtp.Timeout = 20000;
 
-            smtp.Send(Msg);
-            return RedirectToAction("Login");
-            }
+        //     smtp.Send(Msg);
+        //     return RedirectToAction("Login");
+        //     }
             
-            return View(model);
-        }
+        //     return View(model);
+        // }
     }
 }

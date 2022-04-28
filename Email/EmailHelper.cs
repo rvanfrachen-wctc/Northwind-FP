@@ -25,12 +25,15 @@ namespace Identity.Email
             mailMessage.Subject = "Password Reset";
             mailMessage.IsBodyHtml = true;
             mailMessage.Body = link;
+            //mailMessage.Body = "wtf man";
  
             SmtpClient client = new SmtpClient();
             client.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");
             client.Host = "smtp.gmail.com";
             client.Port = 587;
- 
+            client.EnableSsl = true;
+            client.Timeout = 20000;
+            mailMessage.Priority = MailPriority.High;
             try
             {
                 client.Send(mailMessage);
