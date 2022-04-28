@@ -24,5 +24,7 @@ namespace Northwind.Models
     public class NewPasswordModel{
         [Required, UIHint("password")]
         public string Password { get; set; }
+        [Required, UIHint("password")]
+        public string PasswordAgain { get; set; }
     }
 }

@@ -68,5 +68,27 @@ namespace Northwind.Controllers
             }
         return View(details);
         }
+         public IActionResult NewPassword(string returnUrl){
+            ViewBag.returnUrl = returnUrl;
+            return View();
+        }
+        [HttpPost, ValidateAntiForgeryToken]
+        public async Task<IActionResult> NewPassword(NewPasswordModel details, string returnUrl)
+        {
+            if (ModelState.IsValid)
+            {
+                AppUser user = await _userManager.FindByEmailAsync(details.Password);
+                // NewPasswordModel password = new NewPasswordModel();
+                if (details.Password == details.PasswordAgain)
+                {
+                    
+                }
+                else{
+                    ModelState.AddModelError(nameof(NewPasswordModel.PasswordAgain), "Invalid Password");
+                }
+                
+            }
+        return View(details);
+        }
     }
 }
