@@ -118,22 +118,21 @@ namespace Northwind.Controllers
             return View();
         }
 
-        //  [AllowAnonymous]
-        // public IActionResult ResetPassword(string token, string email)
-        // {
-        //     var model = new ResetPassword { Token = token, Email = email };
-        //     return View(model);
-        // }
+         [AllowAnonymous]
+        public IActionResult ResetPassword(string token, string email)
+        {
+            var model = new ResetPassword { Token = token, Email = email };
+            return View(model);
+        }
  
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> ResetPassword(LoginModel details, ResetPassword resetPassword)
+        public async Task<IActionResult> ResetPassword(ResetPassword resetPassword)
         {
             if (!ModelState.IsValid)
                 return View(resetPassword);
- 
-            
-            AppUser user = await _userManager.FindByEmailAsync(details.Email);
+
+            AppUser user = await _userManager.FindByEmailAsync(resetPassword.Email);
             // AppUser user = await _userManager.FindByEmailAsync(details.Email);
 
             // var user = _userManager.FindByEmailAsync(resetPassword.Email);

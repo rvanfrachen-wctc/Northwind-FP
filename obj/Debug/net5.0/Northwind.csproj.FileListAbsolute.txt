@@ -82,3 +82,4 @@ C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Northwind.genruntimeco
 C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
 C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Razor\Views\Account\ResetPasswordConfirmation.cshtml.g.cs
 C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Andy\RiderProjects\Northwind-FP\obj\Debug\net5.0\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs

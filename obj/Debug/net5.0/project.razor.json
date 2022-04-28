@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+      "TargetPath": "Views\\Account\\ForgotPasswordConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Andy\\RiderProjects\\Northwind-FP\\Views\\Product\\Discount.cshtml",
       "TargetPath": "Views\\Product\\Discount.cshtml",
       "FileKind": "mvc"
