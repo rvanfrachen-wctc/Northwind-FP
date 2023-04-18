@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Northwind.Models;
 using System.ComponentModel.DataAnnotations;
-using Identity.Email;
 using System.Net.Mail;
 using System.IO;
+using Northwind.Email;
 
 namespace Northwind.Controllers
 

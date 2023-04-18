@@ -20,36 +20,40 @@ namespace Northwind.Models
         public void EditCustomer(Customer customer)
         {
             var customerToUpdate = Customers.FirstOrDefault(c => c.CustomerId == customer.CustomerId);
-            customerToUpdate.Address = customer.Address;
-            customerToUpdate.City = customer.City;
-            customerToUpdate.Region = customer.Region;
-            customerToUpdate.PostalCode = customer.PostalCode;
-            customerToUpdate.Country = customer.Country;
-            customerToUpdate.Phone = customer.Phone;
-            customerToUpdate.Fax = customer.Fax;
+            if (customerToUpdate != null)
+            {
+                customerToUpdate.Address = customer.Address;
+                customerToUpdate.City = customer.City;
+                customerToUpdate.Region = customer.Region;
+                customerToUpdate.PostalCode = customer.PostalCode;
+                customerToUpdate.Country = customer.Country;
+                customerToUpdate.Phone = customer.Phone;
+                customerToUpdate.Fax = customer.Fax;
+            }
+
             SaveChanges();
         }
-        public CartItem AddToCart(CartItemJSON cartItemJSON)
+        public CartItem AddToCart(CartItemJSON cartItemJson)
         {
-            int CustomerId = Customers.FirstOrDefault(c => c.Email == cartItemJSON.email).CustomerId;
-            int ProductId = cartItemJSON.id;
+            var CustomerId = Customers.FirstOrDefault(c => c.Email == cartItemJson.email)!.CustomerId;
+            int ProductId = cartItemJson.id;
             // check for duplicate cart item
-            CartItem cartItem = CartItems.FirstOrDefault(ci => ci.ProductId == ProductId && ci.CustomerId == CustomerId);
+            var cartItem = CartItems.FirstOrDefault(ci => ci.ProductId == ProductId && ci.CustomerId == CustomerId);
             if (cartItem == null)
             {
                 // this is a new cart item
                 cartItem = new CartItem()
                 {
                     CustomerId = CustomerId,
-                    ProductId = cartItemJSON.id,
-                    Quantity = cartItemJSON.qty
+                    ProductId = cartItemJson.id,
+                    Quantity = cartItemJson.qty
                 };
                 CartItems.Add(cartItem);
             }
             else
             {
                 // for duplicate cart item, simply update the quantity
-                cartItem.Quantity += cartItemJSON.qty;
+                cartItem.Quantity += cartItemJson.qty;
             }
 
             SaveChanges();

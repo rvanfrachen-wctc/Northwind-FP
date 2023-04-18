@@ -9,8 +9,8 @@ namespace Northwind.Controllers
     public class CustomerController : Controller
     {
         // this controller depends on the NorthwindRepository & the UserManager
-        private NorthwindContext _northwindContext;
-        private UserManager<AppUser> _userManager;
+        private readonly NorthwindContext _northwindContext;
+        private readonly UserManager<AppUser> _userManager;
         public CustomerController(NorthwindContext db, UserManager<AppUser> usrMgr)
         {
             _northwindContext = db;

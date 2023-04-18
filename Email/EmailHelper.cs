@@ -1,14 +1,10 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Mail;
-using System.Threading.Tasks;
- 
-namespace Identity.Email
+
+namespace Northwind.Email
 {
     public class EmailHelper
     {
-        
         /*
         When the user clicks the link on the password reset email then he/she is taken to the page where he/she can create the new password.
 
@@ -18,16 +14,16 @@ namespace Identity.Email
         */
         public bool SendEmailPasswordReset(string userEmail, string link)
         {
-            MailMessage mailMessage = new MailMessage();
+            var mailMessage = new MailMessage();
             mailMessage.From = new MailAddress("northwindfp.help@gmail.com");
             mailMessage.To.Add(new MailAddress(userEmail));
- 
+
             mailMessage.Subject = "Password Reset";
             mailMessage.IsBodyHtml = true;
             mailMessage.Body = link;
             //mailMessage.Body = "wtf man";
- 
-            SmtpClient client = new SmtpClient();
+
+            var client = new SmtpClient();
             client.Credentials = new System.Net.NetworkCredential("northwindfp.help@gmail.com", "Qc#rXTVF6@2WNpf");
             client.Host = "smtp.gmail.com";
             client.Port = 587;
@@ -44,6 +40,7 @@ namespace Identity.Email
                 // log exception
                 Console.WriteLine(ex);
             }
+
             return false;
         }
     }

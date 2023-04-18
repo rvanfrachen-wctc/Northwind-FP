@@ -1,39 +1,40 @@
 @using Northwind.Models
 @model IEnumerable<Category>
 
-<div id="User" style="display:none;" data-email="@User.Identity.Name"
-    data-customer="@User.IsInRole("northwind-customer")"></div>
+<div id="User" style="display:none;" data-email="@User.Identity?.Name"
+     data-customer="@User.IsInRole("northwind-customer")">
+</div>
 <table class="table table-hover">
     <thead>
-        <tr>
-            <th scope="col">
-                <div class="form-row">
-                    <div class="form-group col-md-8 mb-0">
-                        <select class="form-control form-control-sm" id="CategoryId">
-                            @foreach (Category c in Model)
+    <tr>
+        <th scope="col">
+            <div class="form-row">
+                <div class="form-group col-md-8 mb-0">
+                    <select class="form-control form-control-sm" id="CategoryId">
+                        @foreach (Category c in Model)
+                        {
+                            if (c.CategoryId == ViewBag.id)
                             {
-                                if (c.CategoryId == ViewBag.id)
-                                { 
-                                    <option value="@c.CategoryId" selected>@c.CategoryName</option>
-                                }
-                                else
-                                { 
-                                    <option value="@c.CategoryId">@c.CategoryName</option>
-                                }
+                                <option value="@c.CategoryId" selected>@c.CategoryName</option>
                             }
-                        </select>
-                    </div>
-                    <div class="form-group col-md-4 mb-0">
-                        <div class="form-check text-right">
-                            <input class="form-check-input" type="checkbox" id="Discontinued">
-                            <label class="form-check-label" for="Discontinued">Discontinued</label>
-                        </div>
+                            else
+                            {
+                                <option value="@c.CategoryId">@c.CategoryName</option>
+                            }
+                        }
+                    </select>
+                </div>
+                <div class="form-group col-md-4 mb-0">
+                    <div class="form-check text-right">
+                        <input class="form-check-input" type="checkbox" id="Discontinued">
+                        <label class="form-check-label" for="Discontinued">Discontinued</label>
                     </div>
                 </div>
-            </th>
-            <th scope="col" class="text-right">Price ($)</th>
-            <th scope="col" class="text-right">Stock</th>
-        </tr>
+            </div>
+        </th>
+        <th scope="col" class="text-right">Price ($)</th>
+        <th scope="col" class="text-right">Stock</th>
+    </tr>
     </thead>
     <tbody id="product_rows" data-id="@ViewBag.id"></tbody>
 </table>
@@ -50,10 +51,18 @@
             <div class="modal-body">
                 <div style="display:none;" id="ProductId"></div>
                 <div class="row">
-                    <div class="col col-xs-5"><strong>Product</strong></div>
-                    <div class="col col-xs-2 text-right"><strong>Price</strong></div>
-                    <div class="col col-xs-2"><strong>Quantity</strong></div>
-                    <div class="col col-xs-3 text-right"><strong>Total</strong></div>
+                    <div class="col col-xs-5">
+                        <strong>Product</strong>
+                    </div>
+                    <div class="col col-xs-2 text-right">
+                        <strong>Price</strong>
+                    </div>
+                    <div class="col col-xs-2">
+                        <strong>Quantity</strong>
+                    </div>
+                    <div class="col col-xs-3 text-right">
+                        <strong>Total</strong>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col col-xs-5 pt-2" id="ProductName">Cool Product</div>
@@ -61,7 +70,7 @@
                         $<span id="UnitPrice">9.99</span>
                     </div>
                     <div class="col col-xs-2">
-                        <input type="number" min="1" value="1" id="Quantity" class="form-control" />
+                        <input type="number" min="1" value="1" id="Quantity" class="form-control"/>
                     </div>
                     <div class="col col-xs-3 pt-2 text-right">
                         $<span id="Total">0.00</span>
@@ -78,7 +87,7 @@
 <!-- toast -->
 <!-- Flexbox container for aligning the toasts -->
 <div id="cart_toast" class="toast bg-info text-light" role="alert" aria-live="assertive" aria-atomic="true"
-    style="position: fixed;top: 65px;right: 10px;">
+     style="position: fixed;top: 65px;right: 10px;">
     <div class="toast-header">
         <strong id="toast_header">This is a toast header</strong>
     </div>
@@ -86,7 +95,8 @@
         This is a toast message.
     </div>
 </div>
+
 @section scripts
 {
-<script src="../../js/product.js"></script>
+    <script src="../../js/product.js"></script>
 }
